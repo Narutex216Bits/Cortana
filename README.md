@@ -6,7 +6,7 @@ This is a readme for Cortana a notification assist to help you on your day! And 
 
 ![look_right](https://github.com/user-attachments/assets/1a7fa5db-6e04-478c-adb3-b015b1d9fb4e)
 
-******************************************* English !!! Attention !!! English ****************************************************************************************
+*************** English !!! Attention !!! English *****************
 
 This Cortana is very diferent from the windows assistant who gave the character a bad reputation, this is not a persinal assistant, more like a virtual pet, a big tamagochi encapsuled in a Super Deformed Cortana Body, you keep in your second or third monitor (I just have 2) and it stay there in idle, breathing (yes she has breathing animation), she is in the middle of lots of icons of social networks, games store, and instant messengers. When someone send you a message or that game you wanted a long time in your wishlist enters on sale, the icon blinks and Cortana look toward it. Nothing fully operational, still need some code on API to conect with apps and social networks. She is made in .NET 4.7.2 and i wanna keep that way for now.(yes i still use old windows, i don't live in a developed imperialist country so my computer is old, and i like to keep it old so more people can use!). The real advantage and purpose is you don't have to take your smartphone and turn on to see where the notification is comming!
 
@@ -23,7 +23,7 @@ I utilized the database from XAMPP for pratical reasons! And also i want to use 
 
 
 
-************************************************************* PT-BR !!! Atenção !!! PT-BR ***************************************************************************
+************** PT-BR !!! Atenção !!! PT-BR *************
 
 
                                                 !!!Atenção!!!
