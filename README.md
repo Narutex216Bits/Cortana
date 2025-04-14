@@ -22,6 +22,16 @@ public partial class LoginForm : Form
 I utilized the database from XAMPP for pratical reasons! And also i want to use a Database in her for future development and aditions to the assistant!
 
 
+                                              !!! New Updates  2025/04/14 !!!
+New updates on the Cortana! Yeahh! I made a little overhal on some interface parts! We changed a lot her database too!
+Cortana now is a Geek/Otaku assistant! With a full calendar holding dates from your events, together with launch dates from 
+Games, Animes and Movies, etc. I using her as a assistant to help me create videos for my channel on Youtube! Is a lot
+harder gatter all that information who been scattered all over the internet, so i made a simple MariaDB database with Xampp and
+fill. She shows all the data on a simple datagrid by date selected on a calendary picker, so when you select a day of the month
+it show what happed that day, a new anime was launched, new Star Trek movie was on teathers, etc. She also is on System Tray
+connected to all your social networks or any you want and notify you from posts or messages, with Jen Taylor Voice!
+
+
 
 ************** PT-BR !!! Atenção !!! PT-BR *************
 
@@ -40,5 +50,14 @@ public partial class LoginForm : Form
 
 Eu usei um banco de dados do XAMPP por razões práticas! E também quero usar um banco de dados em seu futuro desenvolvimento e adições para a assistente!
 
+                                            !!! Novas Atualizações 14/04/2025 !!!
+Novos updates na Cortana! Yeahhh! I fiz um pequeno overhal em partes da interface! Nós mudanos muito do seu banco de dados também!
+Cortana agora é uma assistente Geek/Otaku! Com um claendário completo guardando datas de eventos, juntos com datas de lançamentos 
+de Jogos, animes, filmes, etc. Eu estou usando ela como assistente para me ajudar a criar vídeos para o meu canal no Youtube!
+É muito difícil pegar toda esta informação que está espalhada por toda a internet, então eu criei um banco de dados simples usando
+MariaDB com o Xampp e o preenchi. Ela mostra todas as datas num simples datagrid by data selecionada em um calendaryPicker, então 
+quando você seleciona um dia do mês ele mostra o que aconteceu neste dia, um novo anime foi lançado em um outro ano, ou um 
+novo filme do Star Trek estreiava nos cinemas, etc. Ela também fica no system Tray e se conecta com suas redes sociais, te notificando
+de cada post ou mensagem, com a voz da Jen Taylor!
 
-
+                                      
