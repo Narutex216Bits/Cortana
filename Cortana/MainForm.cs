@@ -29,8 +29,8 @@ namespace Cortana
             notifyIcon = new NotifyIcon
             {
                 Icon = new Icon("Cortana.ICO"),  // Usando o novo ícone
-                Text = "",
-                Visible = false
+                Text = "Não prometa a uma garota algo que você não pode cumprir",
+                Visible = true
             };
             notifyIcon.DoubleClick += NotifyIcon_DoubleClick;
 
@@ -71,13 +71,6 @@ namespace Cortana
         // Método para carregar o CortanaStatus dentro do MainForm
         private void LoadCortanaStatus()
         {
-            CortanaStatus cortanaStatus = new CortanaStatus
-            {
-                MdiParent = this, // Define o MainForm como pai
-                FormBorderStyle = FormBorderStyle.None, // Remove as bordas
-                Dock = DockStyle.Fill // Ajusta o tamanho ao MainForm
-            };
-            cortanaStatus.Show();
         }
 
         private bool IsUserLoggedIn() => false;
@@ -147,7 +140,54 @@ namespace Cortana
 
         private void MainForm_Load(object sender, EventArgs e)
         {
+                notifyIcon.ContextMenuStrip = trayMenu;
+        }
 
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        // Aqui abre o formulário para colocar os dados manualmente no banco de dados!
+        private void bancoDeDadosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FormDatabase formDatabase = new FormDatabase();
+            formDatabase.ShowDialog(); 
+        }
+
+        private void sairToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+        private void trayMenu_Opening(object sender, CancelEventArgs e)
+        {
+
+        }
+        
+        private void abrirCortanaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Show();
+            this.WindowState = FormWindowState.Normal;
+            this.BringToFront();
+        }
+        private void iniciarSessaoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Substitua por lógica que inicia uma sessão específica
+            MessageBox.Show("Função de iniciar sessão em desenvolvimento!");
+        }
+
+        private void cortanaSair_Click(object sender, EventArgs e)
+        {
+            notifyIcon.Visible = false; // remove da system tray
+            Application.Exit();
+        }
+
+        //Aqui abre o calendário para mostrar as datas e eventos
+        private void calendárioToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Calendar Calendar = new Calendar();
+            Calendar.ShowDialog();
         }
     }
 }

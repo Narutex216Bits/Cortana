@@ -28,8 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.bancoDeDadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bancoDeDadosToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.usuáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.sairToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.eventosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adicionarDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.calendárioToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.configuraçõesToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.bancoDeDadosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.contasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.sobreACortanaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cortanaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.configuraçõesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -49,16 +65,129 @@
             this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.manualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreOAssistenteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.trayMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.cortanaAbrir = new System.Windows.Forms.ToolStripMenuItem();
+            this.cortanaCalendario = new System.Windows.Forms.ToolStripMenuItem();
+            this.cortanaSair = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
+            this.trayMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bancoDeDadosToolStripMenuItem,
+            this.eventosToolStripMenuItem,
+            this.configuraçõesToolStripMenuItem2});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1904, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // bancoDeDadosToolStripMenuItem
+            // 
+            this.bancoDeDadosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bancoDeDadosToolStripMenuItem2,
+            this.toolStripSeparator3,
+            this.usuáriosToolStripMenuItem,
+            this.toolStripSeparator4,
+            this.sairToolStripMenuItem1});
+            this.bancoDeDadosToolStripMenuItem.Name = "bancoDeDadosToolStripMenuItem";
+            this.bancoDeDadosToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.bancoDeDadosToolStripMenuItem.Text = "Cortana";
+            // 
+            // bancoDeDadosToolStripMenuItem2
+            // 
+            this.bancoDeDadosToolStripMenuItem2.Name = "bancoDeDadosToolStripMenuItem2";
+            this.bancoDeDadosToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.bancoDeDadosToolStripMenuItem2.Text = "Banco de Dados";
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(177, 6);
+            // 
+            // usuáriosToolStripMenuItem
+            // 
+            this.usuáriosToolStripMenuItem.Name = "usuáriosToolStripMenuItem";
+            this.usuáriosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.usuáriosToolStripMenuItem.Text = "Usuários";
+            // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(177, 6);
+            // 
+            // sairToolStripMenuItem1
+            // 
+            this.sairToolStripMenuItem1.Name = "sairToolStripMenuItem1";
+            this.sairToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.sairToolStripMenuItem1.Text = "Sair";
+            this.sairToolStripMenuItem1.Click += new System.EventHandler(this.sairToolStripMenuItem1_Click);
+            // 
+            // eventosToolStripMenuItem
+            // 
+            this.eventosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.adicionarDataToolStripMenuItem,
+            this.toolStripSeparator2,
+            this.calendárioToolStripMenuItem1});
+            this.eventosToolStripMenuItem.Name = "eventosToolStripMenuItem";
+            this.eventosToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.eventosToolStripMenuItem.Text = "Eventos";
+            // 
+            // adicionarDataToolStripMenuItem
+            // 
+            this.adicionarDataToolStripMenuItem.Name = "adicionarDataToolStripMenuItem";
+            this.adicionarDataToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.adicionarDataToolStripMenuItem.Text = "Adicionar data";
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
+            // 
+            // calendárioToolStripMenuItem1
+            // 
+            this.calendárioToolStripMenuItem1.Name = "calendárioToolStripMenuItem1";
+            this.calendárioToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.calendárioToolStripMenuItem1.Text = "Calendário";
+            this.calendárioToolStripMenuItem1.Click += new System.EventHandler(this.calendárioToolStripMenuItem1_Click);
+            // 
+            // configuraçõesToolStripMenuItem2
+            // 
+            this.configuraçõesToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bancoDeDadosToolStripMenuItem1,
+            this.contasToolStripMenuItem,
+            this.toolStripSeparator1,
+            this.sobreACortanaToolStripMenuItem});
+            this.configuraçõesToolStripMenuItem2.Name = "configuraçõesToolStripMenuItem2";
+            this.configuraçõesToolStripMenuItem2.Size = new System.Drawing.Size(96, 20);
+            this.configuraçõesToolStripMenuItem2.Text = "Configurações";
+            // 
+            // bancoDeDadosToolStripMenuItem1
+            // 
+            this.bancoDeDadosToolStripMenuItem1.Name = "bancoDeDadosToolStripMenuItem1";
+            this.bancoDeDadosToolStripMenuItem1.Size = new System.Drawing.Size(158, 22);
+            this.bancoDeDadosToolStripMenuItem1.Text = "Banco de dados";
+            this.bancoDeDadosToolStripMenuItem1.Click += new System.EventHandler(this.bancoDeDadosToolStripMenuItem1_Click);
+            // 
+            // contasToolStripMenuItem
+            // 
+            this.contasToolStripMenuItem.Name = "contasToolStripMenuItem";
+            this.contasToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.contasToolStripMenuItem.Text = "Contas";
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(155, 6);
+            // 
+            // sobreACortanaToolStripMenuItem
+            // 
+            this.sobreACortanaToolStripMenuItem.Name = "sobreACortanaToolStripMenuItem";
+            this.sobreACortanaToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.sobreACortanaToolStripMenuItem.Text = "Sobre a Cortana";
             // 
             // cortanaToolStripMenuItem
             // 
@@ -197,6 +326,34 @@
             this.sobreOAssistenteToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.sobreOAssistenteToolStripMenuItem.Text = "Sobre o Assistente";
             // 
+            // trayMenu
+            // 
+            this.trayMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cortanaAbrir,
+            this.cortanaCalendario,
+            this.cortanaSair});
+            this.trayMenu.Name = "trayMenu";
+            this.trayMenu.Size = new System.Drawing.Size(176, 70);
+            this.trayMenu.Opening += new System.ComponentModel.CancelEventHandler(this.trayMenu_Opening);
+            // 
+            // cortanaAbrir
+            // 
+            this.cortanaAbrir.Name = "cortanaAbrir";
+            this.cortanaAbrir.Size = new System.Drawing.Size(175, 22);
+            this.cortanaAbrir.Text = "Abrir Cortana";
+            // 
+            // cortanaCalendario
+            // 
+            this.cortanaCalendario.Name = "cortanaCalendario";
+            this.cortanaCalendario.Size = new System.Drawing.Size(175, 22);
+            this.cortanaCalendario.Text = "Mostrar Calendário";
+            // 
+            // cortanaSair
+            // 
+            this.cortanaSair.Name = "cortanaSair";
+            this.cortanaSair.Size = new System.Drawing.Size(175, 22);
+            this.cortanaSair.Text = "Sair";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -213,6 +370,7 @@
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.trayMenu.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -240,5 +398,24 @@
         private System.Windows.Forms.ToolStripMenuItem ajudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem manualToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sobreOAssistenteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bancoDeDadosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bancoDeDadosToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
+        private System.Windows.Forms.ToolStripMenuItem eventosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem adicionarDataToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripMenuItem calendárioToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem configuraçõesToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem bancoDeDadosToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem contasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripMenuItem sobreACortanaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem usuáriosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
+        private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem1;
+        private System.Windows.Forms.ContextMenuStrip trayMenu;
+        private System.Windows.Forms.ToolStripMenuItem cortanaAbrir;
+        private System.Windows.Forms.ToolStripMenuItem cortanaCalendario;
+        private System.Windows.Forms.ToolStripMenuItem cortanaSair;
     }
 }

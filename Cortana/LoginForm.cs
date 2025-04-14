@@ -53,12 +53,12 @@ namespace Cortana
                     conn.Open();
 
                     // Query para verificar o login e a senha
-                    string query = "SELECT * FROM users WHERE login = @login AND password = @password";
+                    string query = "SELECT * FROM users WHERE login = @login AND senha = @senha";
                     MySqlCommand cmd = new MySqlCommand(query, conn);
 
                     // Substituindo os parâmetros para evitar SQL Injection
                     cmd.Parameters.AddWithValue("@login", username);
-                    cmd.Parameters.AddWithValue("@password", password);  // Aqui é onde você validaria a senha criptografada
+                    cmd.Parameters.AddWithValue("@senha", password);  // Aqui é onde você validaria a senha criptografada
 
                     MySqlDataReader reader = cmd.ExecuteReader();
 
