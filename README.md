@@ -31,6 +31,18 @@ fill. She shows all the data on a simple datagrid by date selected on a calendar
 it show what happed that day, a new anime was launched, new Star Trek movie was on teathers, etc. She also is on System Tray
 connected to all your social networks or any you want and notify you from posts or messages, with Jen Taylor Voice!
 
+![Login](https://github.com/user-attachments/assets/d8f89106-3682-4e58-b717-ae8518148fda)
+Cortana Login! You Need to Authenticate to use!
+
+![Main](https://github.com/user-attachments/assets/8e4edf27-ad12-478c-b9af-2f4ea291f994)
+Main Cortana Window!
+
+![database](https://github.com/user-attachments/assets/2253be23-bc9a-4ec5-ba4d-0b346502b9ca)
+Cortana Database data insertion Form!
+
+![Promisse](https://github.com/user-attachments/assets/8f8c83b0-4ebd-43da-84fa-6c288b46ad8b)
+Even when you close she won't forget you!
+
 
 
 ************** PT-BR !!! Atenção !!! PT-BR *************
@@ -60,4 +72,16 @@ quando você seleciona um dia do mês ele mostra o que aconteceu neste dia, um n
 novo filme do Star Trek estreiava nos cinemas, etc. Ela também fica no system Tray e se conecta com suas redes sociais, te notificando
 de cada post ou mensagem, com a voz da Jen Taylor!
 
+
+![Login](https://github.com/user-attachments/assets/d8f89106-3682-4e58-b717-ae8518148fda)
+Cortana Login! Você precisa autenticar para usar!
+
+![Main](https://github.com/user-attachments/assets/8e4edf27-ad12-478c-b9af-2f4ea291f994)
+Janela princpal da Cortana!
+
+![database](https://github.com/user-attachments/assets/2253be23-bc9a-4ec5-ba4d-0b346502b9ca)
+Formulário para inserção de dados no Banco de Dados da Cortana!
+
+![Promisse](https://github.com/user-attachments/assets/8f8c83b0-4ebd-43da-84fa-6c288b46ad8b)
+Mesmo quando você fechar ela não esquece de você!
                                       
