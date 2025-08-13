@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cortana.Resources;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -188,6 +189,14 @@ namespace Cortana
         {
             Calendar Calendar = new Calendar();
             Calendar.ShowDialog();
+        }
+
+        private void sobreACortanaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (About sobreForm = new About())
+            {
+                sobreForm.ShowDialog();
+            }
         }
     }
 }

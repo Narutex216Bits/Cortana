@@ -81,7 +81,7 @@
             this.configuraçõesToolStripMenuItem2});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1904, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1604, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -100,29 +100,29 @@
             // bancoDeDadosToolStripMenuItem2
             // 
             this.bancoDeDadosToolStripMenuItem2.Name = "bancoDeDadosToolStripMenuItem2";
-            this.bancoDeDadosToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.bancoDeDadosToolStripMenuItem2.Size = new System.Drawing.Size(159, 22);
             this.bancoDeDadosToolStripMenuItem2.Text = "Banco de Dados";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(156, 6);
             // 
             // usuáriosToolStripMenuItem
             // 
             this.usuáriosToolStripMenuItem.Name = "usuáriosToolStripMenuItem";
-            this.usuáriosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.usuáriosToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.usuáriosToolStripMenuItem.Text = "Usuários";
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(156, 6);
             // 
             // sairToolStripMenuItem1
             // 
             this.sairToolStripMenuItem1.Name = "sairToolStripMenuItem1";
-            this.sairToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.sairToolStripMenuItem1.Size = new System.Drawing.Size(159, 22);
             this.sairToolStripMenuItem1.Text = "Sair";
             this.sairToolStripMenuItem1.Click += new System.EventHandler(this.sairToolStripMenuItem1_Click);
             // 
@@ -139,18 +139,18 @@
             // adicionarDataToolStripMenuItem
             // 
             this.adicionarDataToolStripMenuItem.Name = "adicionarDataToolStripMenuItem";
-            this.adicionarDataToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.adicionarDataToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.adicionarDataToolStripMenuItem.Text = "Adicionar data";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(148, 6);
             // 
             // calendárioToolStripMenuItem1
             // 
             this.calendárioToolStripMenuItem1.Name = "calendárioToolStripMenuItem1";
-            this.calendárioToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.calendárioToolStripMenuItem1.Size = new System.Drawing.Size(151, 22);
             this.calendárioToolStripMenuItem1.Text = "Calendário";
             this.calendárioToolStripMenuItem1.Click += new System.EventHandler(this.calendárioToolStripMenuItem1_Click);
             // 
@@ -168,26 +168,27 @@
             // bancoDeDadosToolStripMenuItem1
             // 
             this.bancoDeDadosToolStripMenuItem1.Name = "bancoDeDadosToolStripMenuItem1";
-            this.bancoDeDadosToolStripMenuItem1.Size = new System.Drawing.Size(158, 22);
+            this.bancoDeDadosToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.bancoDeDadosToolStripMenuItem1.Text = "Banco de dados";
             this.bancoDeDadosToolStripMenuItem1.Click += new System.EventHandler(this.bancoDeDadosToolStripMenuItem1_Click);
             // 
             // contasToolStripMenuItem
             // 
             this.contasToolStripMenuItem.Name = "contasToolStripMenuItem";
-            this.contasToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.contasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.contasToolStripMenuItem.Text = "Contas";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(155, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // sobreACortanaToolStripMenuItem
             // 
             this.sobreACortanaToolStripMenuItem.Name = "sobreACortanaToolStripMenuItem";
-            this.sobreACortanaToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.sobreACortanaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.sobreACortanaToolStripMenuItem.Text = "Sobre a Cortana";
+            this.sobreACortanaToolStripMenuItem.Click += new System.EventHandler(this.sobreACortanaToolStripMenuItem_Click);
             // 
             // cortanaToolStripMenuItem
             // 
@@ -224,13 +225,13 @@
             // agendarDiaToolStripMenuItem
             // 
             this.agendarDiaToolStripMenuItem.Name = "agendarDiaToolStripMenuItem";
-            this.agendarDiaToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.agendarDiaToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
             this.agendarDiaToolStripMenuItem.Text = "Agendar Dia";
             // 
             // exibirCalendárioToolStripMenuItem
             // 
             this.exibirCalendárioToolStripMenuItem.Name = "exibirCalendárioToolStripMenuItem";
-            this.exibirCalendárioToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.exibirCalendárioToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
             this.exibirCalendárioToolStripMenuItem.Text = "Exibir Calendário";
             // 
             // messengerToolStripMenuItem
@@ -296,13 +297,13 @@
             // configuraçõesDeNotificaçãoToolStripMenuItem
             // 
             this.configuraçõesDeNotificaçãoToolStripMenuItem.Name = "configuraçõesDeNotificaçãoToolStripMenuItem";
-            this.configuraçõesDeNotificaçãoToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.configuraçõesDeNotificaçãoToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.configuraçõesDeNotificaçãoToolStripMenuItem.Text = "Configurações";
             // 
             // exibirNotificaçõesToolStripMenuItem
             // 
             this.exibirNotificaçõesToolStripMenuItem.Name = "exibirNotificaçõesToolStripMenuItem";
-            this.exibirNotificaçõesToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.exibirNotificaçõesToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.exibirNotificaçõesToolStripMenuItem.Text = "Exibir Notificações";
             // 
             // ajudaToolStripMenuItem
@@ -360,7 +361,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1904, 1042);
+            this.ClientSize = new System.Drawing.Size(1604, 881);
             this.Controls.Add(this.menuStrip1);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
